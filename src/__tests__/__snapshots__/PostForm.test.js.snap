@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`PostForm Component Integreation Test matches the snapshot 1`] = `
+<DocumentFragment>
+  <form>
+    <label
+      for="title"
+    >
+      Title:
+    </label>
+    <input
+      id="title"
+      value=""
+    />
+    <label
+      for="body"
+    >
+      Body:
+    </label>
+    <input
+      id="body"
+      value=""
+    />
+    <label
+      for="userId"
+    >
+      User ID:
+    </label>
+    <input
+      id="userId"
+      type="number"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      Submit Post
+    </button>
+  </form>
+</DocumentFragment>
+`;
