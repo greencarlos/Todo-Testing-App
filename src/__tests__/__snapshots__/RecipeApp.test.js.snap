@@ -22,7 +22,7 @@ exports[`Testing recipe app component Recipe component matches snapshot 1`] = `
         Hawaiian Pizza
       </li>
       <li>
-        Vegtarian Pizza
+        Vegan Pizza
       </li>
     </ul>
   </div>

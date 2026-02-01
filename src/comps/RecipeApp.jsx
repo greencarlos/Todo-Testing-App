@@ -5,7 +5,7 @@ const recipes = [
   {id: 2, name: "Pepperoni Pizza"},
   {id: 3, name: "Cheese Pizza"},
   {id: 4, name: "Hawaiian Pizza"},
-  {id: 5, name: "Vegtarian Pizza"},
+  {id: 5, name: "Vegan Pizza"},
 ]
 
 const RecipeApp = () => {

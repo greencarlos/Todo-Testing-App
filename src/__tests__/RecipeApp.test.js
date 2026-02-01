@@ -13,21 +13,21 @@ describe("Testing recipe app component", () => {
   test("updates the list based on search query", () => {
     const { getByPlaceholderText, queryByText } = render(<RecipeApp />);
     fireEvent.change(getByPlaceholderText(/Search recipes.../i), {
-      target: { value: "chicken" },
+      target: { value: "cheese" },
     });
 
-    expect(queryByText(/Cheese Pizza/i)).toBeInTheDocument();
-    expect(queryByText(/Pepperoni Pizza/i)).toBeInTheDocument();
+    expect(queryByText(/Cheese/i)).toBeInTheDocument();
+    expect(queryByText(/Pizza/i)).toBeInTheDocument();
     expect(queryByText(/Chicken Parmesan Pasta/i)).not.toBeInTheDocument();
   });
 
   test("is case-insensitive in search", () => {
     const { getByPlaceholderText, queryByText } = render(<RecipeApp />);
     fireEvent.change(getByPlaceholderText(/Search recipes.../i), {
-      target: { value: "ChIcKeN" },
+      target: { value: "VeGaN" },
     });
 
-    expect(queryByText(/Vegetarian Pizza/i)).toBeInTheDocument();
+    expect(queryByText(/Vegan Pizza/i)).toBeInTheDocument();
     expect(queryByText(/Chicken Tikka Masala/i)).not.toBeInTheDocument();
   });
 
