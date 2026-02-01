@@ -1,7 +1,7 @@
 import React from "react";
 import { render, fireEvent, waitFor } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import ButtonAPICall from "../ButtonAPICall";
+import ButtonAPICall from "../comps/ButtonAPICall";
 import axios from "axios";
 
 jest.mock("axios");

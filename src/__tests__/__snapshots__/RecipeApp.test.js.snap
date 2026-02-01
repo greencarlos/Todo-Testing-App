@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Testing recipe app component Recipe component matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <input
+      placeholder="Search recipes..."
+      type="text"
+      value=""
+    />
+    <ul>
+      <li>
+        Spaghetti Carbonara
+      </li>
+      <li>
+        Pepperoni Pizza
+      </li>
+      <li>
+        Cheese Pizza
+      </li>
+      <li>
+        Hawaiian Pizza
+      </li>
+      <li>
+        Vegtarian Pizza
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

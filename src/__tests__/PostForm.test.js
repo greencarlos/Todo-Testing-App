@@ -1,7 +1,7 @@
 import React from 'react'
 import {render, fireEvent, waitFor, screen} from '@testing-library/react'
 import '@testing-library/jest-dom'
-import PostForm from '../PostForm'
+import PostForm from '../comps/PostForm'
 
 global.fetch = jest.fn(() => 
   Promise.resolve({

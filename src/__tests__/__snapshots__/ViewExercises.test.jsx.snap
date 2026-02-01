@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`View Exercises Component View Exercises react component matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <p>
+      Running - 30 minutes - 300 kcal
+    </p>
+    <button>
+      Delete
+    </button>
+  </div>
+  <div>
+    <p>
+      Cycling - 45 minutes - 450 kcal
+    </p>
+    <button>
+      Delete
+    </button>
+  </div>
+</DocumentFragment>
+`;
